@@ -19,7 +19,7 @@ with st.sidebar:
     st.header("Redescendons sur Terre !")
     choice = option_menu(
         menu_title = "Menu",
-        options=["Introduction", "Exploration des données", "Analyses et Visualisations", "Modélisation", "Conclusion", "Ressources"],
+        options=["Introduction", "Exploration des données", "Analyses et Visualisations", "Modélisation et Prédictions", "Conclusion", "Ressources"],
         #icons = [""]
         menu_icon="cast",
         default_index=0)
@@ -80,7 +80,7 @@ elif choice == "Analyses et Visualisations":
     Visualisations()
     
 # Modélisation ML   
-elif choice == "Modélisation et Prédictions":
+elif choice == "Modélisation":
     Modelisations()    
     
 # Conclusion    
