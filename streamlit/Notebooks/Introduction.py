@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 def Introduction():
-     image1 = Image.open('images/rechauffement-climatique-illustration.jpeg')
+     image1 = Image.open('streamlit/images/rechauffement-climatique-illustration.jpeg')
      st.image(image1)
      st.title(" Redescendons sur Terre !")
      st.subheader("Analyse et modélisation du réchauffement climatique")
