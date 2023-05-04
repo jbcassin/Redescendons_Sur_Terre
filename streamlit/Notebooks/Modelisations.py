@@ -178,7 +178,7 @@ def Modelisations():
     st.write("Vous pouvez afficher le résultat des prédictions en sélectionnant l'année, le mois et le jour.")
     
     # Chargement du modèle
-    model = joblib.load(filename='./Notebooks/model_Prophet.joblib')
+    model = joblib.load(filename='streamlit/Notebooks/model_Prophet.joblib')
     
     st.markdown("**Saisissez une date:**")
 
