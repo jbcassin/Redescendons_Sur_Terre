@@ -80,7 +80,7 @@ elif choice == "Analyses et Visualisations":
     Visualisations()
     
 # Modélisation ML   
-elif choice == "Modélisation":
+elif choice == "Modélisation et Prédictions":
     Modelisations()    
     
 # Conclusion    
