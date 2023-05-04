@@ -3,7 +3,7 @@ from PIL import Image
 
 
 def Ressources():
-    image6 = Image.open('images/terre.jpeg')
+    image6 = Image.open('streamlit/images/terre.jpeg')
     st.image(image6)
     st.title("Ressources")
     st.write("Dernier rapport du GIEC: https://www.ipcc.ch/languages-2/francais/")
