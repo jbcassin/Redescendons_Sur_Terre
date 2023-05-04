@@ -12,7 +12,7 @@ from prophet.plot import plot_plotly, plot_components_plotly
 
 
 def Modelisations():
-    image4 = Image.open('images/climate-change-tree.jpeg')
+    image4 = Image.open('streamlit/images/climate-change-tree.jpeg')
     st.image(image4)
     st.title("Modélisation")
     
