@@ -207,7 +207,7 @@ def Visualisations():
     st.markdown("**Analyse des anomalies de température depuis 2000 ans**")
     st.write("A partir des données PAGES2K, nous vons obtenu le graphique suivant qui montre les anomalies de températures depuis l'année 0 jusqu'en 2014.")
     st.write("Visualisation avec uniquement les valeurs de la Full Ensemble Median ainsi que la moyenne filtrée sur une période de 31 ans (31-year filtered full ensemble median)")
-    image_pages2K = Image.open('Graphs/Courbe Temp depuis 2000 ans V2.png')
+    image_pages2K = Image.open('streamlit/Graphs/Courbe Temp depuis 2000 ans V2.png')
     st.image(image_pages2K)
     st.write("Nous constatons que la courbe est assez plate pendant le 1er millénaire, avec une légère hausse vers la période 1000-1200 puis une baisse allant d’environ 1500 à 1800, puis une montée très prononcée à partir du 20 ème siècle.")
     st.write("Les données montrent que la période moderne est très différente de ce qui s'est passé dans le passé. La période chaude médiévale et le petit âge glaciaire souvent cités sont des phénomènes réels, mais petits par rapport aux changements récents.")
@@ -369,10 +369,10 @@ def Visualisations():
     
     st.write("Nous avons tout d'abord utilisé les données du Climate & Energy College. Après traitement des données nous faisons apparaître 2 graphiques:")
     st.write("Le 1er graphique montre le taux de C02 globale dans l’atmosphère depuis l’année 0. Ce taux était assez stationnaire mais nous constatons que depuis le début du 19ème siècle et l’avènement de la révolution industrielle le taux a très fortement augmenté.")
-    image_co2_1 = Image.open('Graphs/C02 0 à 2020.png')
+    image_co2_1 = Image.open('streamlit/Graphs/C02 0 à 2020.png')
     st.image(image_co2_1)
     st.write("Le 2ème graphique est un zoom sur la période 1880 à 2014, période similaire à notre jeu de données sur les anomalies de températures.Ce graphique nous montre que le taux à très largement augmenté depuis 1880 avec une tendance haussière encore plus prononcée depuis 1960. Nous constatons également que le taux de CO2 est légèrement plus élevé dans le l’hémisphère Nord que dans le l’hémisphère Sud et que cet écart à tendance à augmenter au fil du temps.")
-    image_co2_2 = Image.open('Graphs/C02 1880 à 2020.png')
+    image_co2_2 = Image.open('streamlit/Graphs/C02 1880 à 2020.png')
     st.image(image_co2_2)
     
     
@@ -458,7 +458,7 @@ def Visualisations():
     ### Comparaison C02 et température
     st.subheader("Comparaison entre les anomalies de température et les émissions de C02")    
     st.write("Dans ce graphique, nous superposons le taux de CO2 et les anomalies de température sur la période de 1880 à nos jours en mergeant ce dataset avec celui des températures globales de la Nasa (GLB.Ts+dSST). Nous constatons que les 2 courbes suivent la même tendance haussière avec la même inflexion vers le haut depuis le milieu du XXème siècle. Il y a donc de très fortes probabilités que ces 2 paramètres soient liés et que la hausse du taux de gaz à effet de serre dans l’atmosphère contribue à faire augmenter la température à la surface du globe. Nous décidons d’utiliser une méthode statistique pour montrer la corrélation entre la hausse des températures et l'augmentation des émissions de CO2. Nous avons donc effectué un test de corrélation de Pearson entre le taux de CO2 globale et les anomalies globales de température.")
-    image_co2_3 = Image.open('Graphs/C02+Temp 1880 à 2020.png')
+    image_co2_3 = Image.open('streamlit/Graphs/C02+Temp 1880 à 2020.png')
     st.image(image_co2_3)    
     st.write("Nous obtenons les résultats de corrélation suivants:")
     st.write("Coefficient de corrélation: 0.9276260482581129")
