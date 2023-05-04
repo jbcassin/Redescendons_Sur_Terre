@@ -14,7 +14,7 @@ st.set_page_config(page_title="Redescendons_Sur_Terre_App", page_icon=":earth:")
 # Create a sidebar menu 
 with st.sidebar:
     #st.markdown()
-    image_sidebar = Image.open('images/terre.png')
+    image_sidebar = Image.open('streamlit/images/terre.png')
     st.image(image_sidebar)
     st.header("Redescendons sur Terre !")
     choice = option_menu(
