@@ -13,7 +13,7 @@ import altair as alt
 
 
 def Visualisations():
-    image3 = Image.open('images/GettyImages-155141288-polar-bear-1200x630-2.jpeg')
+    image3 = Image.open('streamlit/images/GettyImages-155141288-polar-bear-1200x630-2.jpeg')
     st.image(image3)
     st.title("Analyses et Visualisations")
   
