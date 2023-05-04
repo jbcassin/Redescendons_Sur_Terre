@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 
 def Exploration():
-    image2 = Image.open('images/GlobalWarming_Lead.jpeg')
+    image2 = Image.open('streamlit/images/GlobalWarming_Lead.jpeg')
     st.image(image2)
     st.title("Exploration des données")
     st.subheader("Présentation des données")
