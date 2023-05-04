@@ -3,7 +3,7 @@ from PIL import Image
 
 
 def Conclusion():
-    image5 = Image.open('images/PHOTO-Climate-Collage-Diagonal-Design-NOAA-Communications-NO-NOAA-Logo.jpeg')
+    image5 = Image.open('streamlit/images/PHOTO-Climate-Collage-Diagonal-Design-NOAA-Communications-NO-NOAA-Logo.jpeg')
     st.image(image5)
     st.title("Conclusion")
     st.write("Grâce à l’analyse de données, nous avons pu répondre aux questions de notre problématique et atteindre nos objectifs.")
