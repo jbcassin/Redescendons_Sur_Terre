@@ -43,7 +43,7 @@ def Modelisations():
     st.write("- Prédiction sur les données de test")
     st.write("Nous obtenons le graphique suivant:")
     
-    image_reg_1 = Image.open('Graphs/Anomalies de température avec prédictions - Regression Polynomiale.png')
+    image_reg_1 = Image.open('streamlit/Graphs/Anomalies de température avec prédictions - Regression Polynomiale.png')
     st.image(image_reg_1)
 
     st.write("Nous avons procédé au calcul des métriques de performance.")
@@ -148,7 +148,7 @@ def Modelisations():
     
     #st.write("Nous obtenons le graphique suivant:")
 
-    #image_prophet_1 = Image.open("Graphs/Anomalies de température avec prédictions jusqu'à 2015 - Prophet.png")
+    #image_prophet_1 = Image.open("streamlit/Graphs/Anomalies de température avec prédictions jusqu'à 2015 - Prophet.png")
     #st.image(image_prophet_1)
 
     st.write("")    
@@ -166,7 +166,7 @@ def Modelisations():
     
     st.write("En calculant les prédictions sur 50 ans nous obtenons le graphique suivant:")
 
-    image_prophet_2 = Image.open('Graphs/Anomalies de température avec prédictions + 50 ans - Prophet.png')
+    image_prophet_2 = Image.open('streamlit/Graphs/Anomalies de température avec prédictions + 50 ans - Prophet.png')
     st.image(image_prophet_2)
     
     st.success("Prédictions")
