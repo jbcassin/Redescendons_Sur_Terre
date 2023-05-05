@@ -6,7 +6,7 @@ def Introduction():
      st.image(image1)
      st.title(" Redescendons sur Terre !")
      st.subheader("Analyse et modélisation du réchauffement climatique")
-     st.write("réalisées par Jean-Baptiste CASSIN et Salim ABDELOUAHAB")
+     st.write("réalisées par Jean-Baptiste CASSIN et Salim ABDELOUAHAB.")
      st.subheader("Problématique")
      st.error("Le réchauffement climatique est-il réel?")
      st.write((" Selon l’Organisation des Nations Unies, la période 2011-2020 a été la décennie la plus chaude jamais enregistrée."
