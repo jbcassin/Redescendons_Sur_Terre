@@ -183,7 +183,7 @@ def Modelisations():
     st.markdown("**Saisissez une date:**")
 
     # Créez une interface utilisateur pour permettre à l'utilisateur de saisir la date
-    input_date = st.date_input("", value=pd.to_datetime('1960-01-01'), min_value=pd.to_datetime('1960-01-01'),
+    input_date = st.date_input("", value=pd.to_datetime('2023-01-01'), min_value=pd.to_datetime('2023-01-01'),
                               max_value=pd.to_datetime('2073-01-01'))
 
     # Prédisez la température pour la date saisie
