@@ -45,14 +45,7 @@ with st.sidebar:
         st.write("[Github](<https://github.com/abdelouahab70/>)")
         
         
-    st.subheader("- Thomas CHAULET")
-    col5, col6 = st.columns(2)
-    with col5:
-        st.markdown('<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width=30>', unsafe_allow_html=True)
-        st.write("[Linkedin](<https://www.linkedin.com/in/salim-a-a71815192/>)")
-    with col6:   
-        st.markdown('<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width=30>', unsafe_allow_html=True)
-        st.write("[Github](<https://github.com/abdelouahab70/>)")
+
 
 
 
