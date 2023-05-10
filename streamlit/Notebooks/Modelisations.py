@@ -160,7 +160,15 @@ def Modelisations():
     st.write("RMSE :  0.31084173261256354")
     st.write("R²   :  0.601853008358856")
     
-   
+    st.markdown("**Performances du modèle sur le jeu de test :**")
+    st.write("MAE :  0.21649882196325518")
+    st.write("MSE :  0.0950327379205984")
+    st.write("RMSE :  0.30827380349390443")
+    st.write("R²   :  0.03193757857880586")    
+    
+    image_prophet_4 = Image.open('streamlit/Graphs/Anomalies de température avec prédictions jusqu'à 2015 - Prophet.png')
+    st.image(image_prophet_4)
+                                 
     st.write("")
     st.write("Les métriques de performance du modèle Prophet suggèrent que le modèle est capable de faire des prédictions précises pour les anomalies de température dans les 50 années à venir. Cependant, il est important de noter que ces métriques ne fournissent qu'une indication de la performance du modèle et qu'il est toujours important de vérifier la qualité des prédictions à l'aide d'autres outils et méthodes.") 
     
