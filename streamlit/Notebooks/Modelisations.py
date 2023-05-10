@@ -166,7 +166,7 @@ def Modelisations():
     st.write("RMSE :  0.30827380349390443")
     st.write("R²   :  0.03193757857880586")    
     
-    image_prophet_4 = Image.open('streamlit/Graphs/Anomalies de température avec prédictions jusqu'à 2015 - Prophet.png')
+    image_prophet_4 = Image.open("streamlit/Graphs/Anomalies de température avec prédictions jusqu'à 2015 - Prophet.png")
     st.image(image_prophet_4)
                                  
     st.write("")
